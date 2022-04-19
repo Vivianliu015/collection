@@ -1,0 +1,224 @@
+body {
+    background-color:  #E0CDAF;
+    background-attachment: fixed;
+  }
+  
+  div.scroll {
+    font-family: "Bodoni Moda", serif;
+    text-align: left;
+    position: absolute;
+    font-size: 20px;
+    padding: 20px;
+    width: 40%;
+    height: 70%;
+    top: 165px;
+    overflow-x: hidden;
+    overflow-y: visible;
+    text-align: left;
+    right: 120px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    color: #807E82;
+  }
+  
+  .scroll::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .title {
+    font-family: "Bodoni Moda", serif;
+    position: absolute;
+    font-size: 50px;
+    left: 170px;
+    top: 80px;
+    color: #807E82;
+  }
+  
+  .gallery-section {
+    position: relative;
+    width: 45%;
+    height: 45%;
+    top: 90px;
+    left: 190px;
+  }
+  
+  .gallery-section img {
+    width: 40%;
+    position: absolute;
+    z-index: 10;
+    transition: all 0.5s;
+    box-shadow: -3px 1px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .img8 {
+    left: 0rem;
+    top: 0.5rem;
+  }
+  
+  .img7 {
+    left: 1rem;
+    top: 1rem;
+  }
+  
+  .img6 {
+    left: 2rem;
+    top: 2rem;
+  }
+  
+  .img5 {
+    left: 3rem;
+    top: 3rem;
+  }
+  
+  .img4 {
+    left: 4rem;
+    top: 4rem;
+  }
+  
+  .img3 {
+    left: 5rem;
+    top: 5rem;
+  }
+  
+  .img2 {
+    left: 6rem;
+    top: 6rem;
+  }
+  
+  .img1 {
+    left: 7rem;
+    top: 7rem;
+  }
+  
+  .gallery-section img:hover {
+    z-index: 20;
+    transform: scale(1.2) rotate(-10);
+  }
+  
+  .gallery-section:hover img:not(:hover) {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  
+  .button-home {
+    font-size: 14px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding: 10px 17px 10px;
+    outline: 0;
+    border: 1px solid #664e2c;
+    cursor: pointer;
+    left: 4px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    top: 2px;
+    color:#420706;
+      font-family: "Bodoni Moda", serif;
+  
+  }
+  
+  .button-home:after {
+    content: "";
+    background-color: #EBE3D9;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+    
+  }
+  
+  .button-home:hover:after {
+    top: 0px;
+    left: 0px;
+  }
+  
+   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .button-spring {
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    position: relative;
+    left: 1370px;
+    font-size: 14px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding: 10px 17px 10px;
+    outline: 0;
+    border: 1px solid #664e2c;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    top: -35px;
+     color: #420706;
+    font-family: "Bodoni Moda", serif;
+  
+  }
+  
+  .button-spring:after {
+    content: "";
+    background-color:#C1E1C1
+  ;
+  
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+   
+  }
+  
+  .button-spring:hover:after {
+    top: 0px;
+    left: 0px;
+  }
+  
+  
+  .img__wrap {
+    position: relative;
+    
+  }
+  
+  .img__description_layer {
+    visibility: hidden;
+    transition: opacity .2s, visibility .2s;
+     position: absolute;
+    
+  }
+  
+  .img__wrap:hover .img__description_layer {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .img__description {
+    position:relative;
+    left:-14px;
+    transition: .2s;
+    transform: translateY(1em);
+    top:-60px;
+    font-family: "Bodoni Moda", serif;
+    font-size: 18px;
+    text-align:center;
+     color: #807E82;
+  
+    
+  }
+  
+  .img__wrap:hover .img__description {
+    transform: translateY(0);
+  }

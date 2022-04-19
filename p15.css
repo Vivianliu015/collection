@@ -1,0 +1,80 @@
+body {
+    background-color: 		#cb958e;
+    background-attachment: fixed;
+  }
+  
+  div.scroll {
+    font-family: "Bodoni Moda", serif;
+    text-align: left;
+    position: absolute;
+    font-size: 20px;
+    padding: 20px;
+    width: 30%;
+    height: 60%;
+    top: 180px;
+    overflow-x: hidden;
+    overflow-y: visible;
+    text-align: left;
+    right: 500px;
+    -ms-overflow-style: none;
+    color:	#fae9f1	;
+  }
+  .scroll::-webkit-scrollbar {
+    display: none;
+  }
+  
+  
+  .title {
+    font-family: "Bodoni Moda", serif;
+    position: absolute;
+    font-size: 45px;
+    left: 520px;
+    top: 80px;
+    color:	#fae9f1	;
+  }
+  
+  
+  
+  .button-home {
+    font-size: 14px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding: 10px 17px 10px;
+    outline: 0;
+    border: 1px solid black;
+    cursor: pointer;
+    left: 4px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    top: 2px;
+    font-family: "Bodoni Moda", serif;
+  }
+  
+  .button-home:after {
+    content: "";
+    background-color: #b8c5d9;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+    background-color:		#d9bcc0;
+  }
+  
+  .button-home:hover:after {
+    top: 0px;
+    left: 0px;
+  }
+  
+   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
